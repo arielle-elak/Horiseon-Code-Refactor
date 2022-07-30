@@ -1,3 +1,6 @@
+/*Stylesheet for Horiseon Web Page*/
+/*Last updates by Arielle Schlickman-Elak | July 30 2022*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -68,12 +71,12 @@ p {
     margin-left: 20px;
 }
 /*Main services image formatting (appears to the left)*/
-.float-left {
+.image-left {
     float: left;
     margin-right: 25px;
 }
 /*Main services image formatting (appears to the right)*/
-.float-right {
+.image-right {
     float: right;
     margin-left: 25px;
 }
