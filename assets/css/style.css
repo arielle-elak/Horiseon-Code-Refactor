@@ -78,7 +78,7 @@ p {
     margin-left: 25px;
 }
 /*Main services content formatting*/
-.search-engine-optimization, .online-reputation-management, .social-media-marketing{
+.content-section{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -87,11 +87,11 @@ p {
     color: #ffffff;
 }
 /*Main services content image height*/
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img{
+.content-section img{
     max-height: 200px;
 }
 /*Main services header*/
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2{
+.content-section h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
