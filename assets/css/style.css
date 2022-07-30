@@ -61,8 +61,8 @@ p {
     background-position: center;
 }
 
-/*Main services section*/
-.content {
+/*Main services content section*/
+.services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
