@@ -25,6 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Top-right navigation styling*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,25 +33,25 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*Remove default list dots*/
 header nav ul {
     list-style-type: none;
 }
-
+/*Make navigation items align horizontally*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Default link color*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Default paragraph font size*/
 p {
     font-size: 16px;
 }
-
+/*Main full-screen width splash image*/
 .hero {
     height: 800px;
     width: 100%;
