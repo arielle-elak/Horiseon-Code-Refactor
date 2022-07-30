@@ -78,7 +78,7 @@ p {
     margin-left: 25px;
 }
 /*Main services content formatting*/
-.content-section{
+.services-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -87,11 +87,11 @@ p {
     color: #ffffff;
 }
 /*Main services content image height*/
-.content-section img{
+.services-section img {
     max-height: 200px;
 }
 /*Main services header*/
-.content-section h2{
+.services-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -109,17 +109,17 @@ p {
     background-color: #2589bd;
 }
 /*Benefit spacing and color*/
-.benefit-lead, .benefit-brand, .benefit-cost{
+.benefits-section{
     margin-bottom: 32px;
     color: #ffffff;
 }
 /*Benefit header spacing*/
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3{
+.benefits-section h3{
     margin-bottom: 10px;
     text-align: center;
 }
 /*Benefit icon formatting*/
-.benefit-lead img, .benefit-brand img, .benefit-cost img{
+.benefits-section img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
