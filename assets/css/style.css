@@ -149,10 +149,6 @@ footer h2 {
         margin-left: 17px;
     }
 
-    img {
-        display: block;
-    }
-
     .services, .benefits{
         width: 100%;
         margin-left: 0px;
@@ -184,22 +180,39 @@ footer h2 {
     }
     .image-left {
         margin-right: 10px;
-        float: center;
     }
     .image-right {
         margin-left: 10px;
-        float: center;
     }
 }
 
 /*When screen width is equal to or less than 780px*/
 @media only screen and (max-width: 780px) {
 
+    .hero {
+        margin-bottom: 0px;
+    }
+
+    .services-section {
+        height: 200px;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .image-left {
+        display: block;
+        margin-right: 4%;
+        width: 32%;
+    }
+
+    .image-right {
+        display: block;
+        margin-left: 4%;
+        width: 32%;
+    }
+
     .benefits-section {
         display: block;
         width: 100%;
     }
-
-
-
 }
