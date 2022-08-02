@@ -2,8 +2,18 @@
 
 Thank you for viewing Arielle's first challenge with the UCB Coding Bootcamp. 
 
-Once this project is ready to go live, full instructions and links will be enclosed in this README.
+Please view the live site here:
 
-Please stay tuned for updates!
+[https://arielle-elak.github.io/Challenge-01-Code-Refactor/]
+
+Please note the following features of this build:
+
+- Full mobile compatibility
+- Accessible alt tags on applicable images
+- Fully commented CSS stylesheet
+- Anchor links in the navigation menu that point to specific locations on the page
+- Favicon icon to appear next to the title on a new tab
+
+
 
 
