@@ -206,7 +206,13 @@ footer h2 {
     /*No more room for floating-left menu.*/
     header {
         text-align: center;
-        padding-bottom: 60px;
+        padding-bottom: 30px;
+    }
+    /*Turn items into floating-center flexbox*/
+    header nav {
+        float: none;
+        display: flex;
+        justify-content: center;
     }
 
     /*Decrease the margin for images due to smaller screen size*/
@@ -225,7 +231,7 @@ footer h2 {
 
     /*Further increase room in header for when menu items stack vertically*/
     header {
-        padding-bottom: 80px;
+        padding-bottom: 30px;
     }
 
     /*No more need for the margin below the large image*/
