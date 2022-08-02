@@ -2,6 +2,8 @@
 
 Thank you for viewing Arielle's first challenge with the UCB Coding Bootcamp!
 
+For this assignment, we were given a pre-built website lacking in sementic elements, alt tags for accessibility. Our goal was to make sure the HTML and CSS stylesheet flowed in a proper and logical manner and was correctly commented. I decided to try and tackle some of the more advanced topics we covered later in the week including mobile compatibility and scaling with flexboxes as well.
+
 Please view the live site here:
 
 https://arielle-elak.github.io/Challenge-01-Code-Refactor/
