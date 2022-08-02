@@ -17,6 +17,7 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+/*H1 styling exclusive to header section*/
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -144,43 +145,48 @@ footer h2 {
 /*When screen width is equal to or less than 1034px*/
 @media only screen and (max-width: 1034px) {
 
+    /*Make menu smaller to fit in header*/
     header nav ul li {
         font-size: 17px;
         margin-left: 17px;
     }
-
-    .services, .benefits{
-        width: 100%;
+    /*Services no longer needs side margins since there's not sidebar*/
+    .services {
         margin-left: 0px;
         margin-right: 0px;
     }
 
+    /*Benefits no longer fits as a sidebar. Both sections span the entire width of page.*/
+    .services, .benefits{
+        width: 100%;
+    }
+    /*Smaller section header to fit*/
     .services-section h2 {
         margin-bottom: 20px;
         font-size: 24px;
     }
-
-    .benefits-section {
-        display: inline-block;
-        width: 33%;
-        vertical-align: top;
-        padding-right: 40px;
-    }
-    .benefits p {
+    /*Text fits better with stacked column structure*/
+    .benefits {
         text-align: center;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
     }
 }
 
 /*When screen width is equal to or less than 909px*/
 @media only screen and (max-width: 909px) {
-
+    /*No more room for floating-left menu.*/
     header {
         text-align: center;
         padding-bottom: 60px;
     }
+    /*Decrease the margin for images due to smaller screen size*/
     .image-left {
         margin-right: 10px;
     }
+    /*Decrease the margin for images due to smaller screen size*/
     .image-right {
         margin-left: 10px;
     }
@@ -189,30 +195,56 @@ footer h2 {
 /*When screen width is equal to or less than 780px*/
 @media only screen and (max-width: 780px) {
 
+    /*Further increase room in header for when menu items stack vertically*/
+    header {
+        padding-bottom: 80px;
+    }
+    /*No more need for the margin below the large image*/
     .hero {
         margin-bottom: 0px;
     }
-
+    /*Higher height for each section but lower padding*/
     .services-section {
-        height: 200px;
+        height: 300px;
         padding: 20px;
         margin-bottom: 10px;
     }
-
+    /*Decrease margin for screen size*/
     .image-left {
-        display: block;
         margin-right: 4%;
-        width: 32%;
     }
-
+    /*Decrease margin for screen size*/
     .image-right {
-        display: block;
         margin-left: 4%;
-        width: 32%;
     }
-
+    /*Sidebar now moves to a section below the services to fit.*/
     .benefits-section {
-        display: block;
         width: 100%;
+    }
+}
+
+/*When screen width is equal to or less than 630px*/
+@media only screen and (max-width: 630px) {
+
+   /*Make image float to the center on all service sections and stack contents vertically*/
+    .services-section {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    /*Set image height max heigher so it can take up more room in the section for smaller screen sizes.*/
+    .services-section img {
+        width: auto;
+        height: auto;
+        max-height: 350px;
+    }
+    /*Both image classes get uniform width and margin settings when on a mobile screen.*/
+    .image-left, .image-right{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 4%;
     }
 }
