@@ -10,6 +10,7 @@
 body {
     background-color: #d9dcd6;
 }
+
 /*Logo and navigation*/
 header {
     padding: 20px;
@@ -17,15 +18,18 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-/*H1 styling exclusive to header section*/
+
+/*h1 styling exclusive to header section*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /*Inner logo formatting*/
 header h1 .seo {
     color: #d9dcd6;
 }
+
 /*Top-right navigation styling*/
 header nav {
     padding-top: 15px;
@@ -34,10 +38,12 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
 /*Remove default list dots*/
 header nav ul {
     list-style-type: none;
 }
+
 /*Make navigation items align horizontally*/
 header nav ul li {
     display: inline-block;
@@ -71,16 +77,19 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
+
 /*Main services image formatting (appears to the left)*/
 .image-left {
     float: left;
     margin-right: 25px;
 }
+
 /*Main services image formatting (appears to the right)*/
 .image-right {
     float: right;
     margin-left: 25px;
 }
+
 /*Main services content formatting*/
 .services-section {
     margin-bottom: 20px;
@@ -90,16 +99,17 @@ main {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 /*Main services content image height*/
 .services-section img {
     max-height: 200px;
 }
+
 /*Main services header*/
 .services-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 /*Right sidebar of benefits*/
 aside {
@@ -118,17 +128,20 @@ aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 /*Benefit header spacing*/
 .benefits-section h3{
     margin-bottom: 10px;
     text-align: center;
 }
+
 /*Benefit icon formatting*/
 .benefits-section img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 /*Bottom footer*/
 footer {
     padding: 30px;
@@ -136,6 +149,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 /*Bottom footer header*/
 footer h2 {
     font-size: 20px;
@@ -151,6 +165,7 @@ footer h2 {
         font-size: 17px;
         margin-left: 17px;
     }
+
     /*Services no longer needs side margins since there's not sidebar*/
     main {
         margin-left: 0px;
@@ -159,15 +174,16 @@ footer h2 {
     }
 
     /*Benefits no longer fits as a sidebar. Both sections span the entire width of page.*/
-
     aside {
         width: 100%;
     }
+
     /*Smaller section header to fit*/
     .services-section h2 {
         margin-bottom: 20px;
         font-size: 24px;
     }
+
     /*Text fits better with stacked column structure*/
     aside {
         text-align: center;
@@ -179,16 +195,20 @@ footer h2 {
 }
 
 /*When screen width is equal to or less than 909px*/
+
 @media only screen and (max-width: 909px) {
+
     /*No more room for floating-left menu.*/
     header {
         text-align: center;
         padding-bottom: 60px;
     }
+
     /*Decrease the margin for images due to smaller screen size*/
     .image-left {
         margin-right: 10px;
     }
+
     /*Decrease the margin for images due to smaller screen size*/
     .image-right {
         margin-left: 10px;
@@ -202,24 +222,29 @@ footer h2 {
     header {
         padding-bottom: 80px;
     }
+
     /*No more need for the margin below the large image*/
     .hero {
         margin-bottom: 0px;
     }
+
     /*Higher height for each section but lower padding*/
     .services-section {
         height: 300px;
         padding: 20px;
         margin-bottom: 10px;
     }
+
     /*Decrease margin for screen size*/
     .image-left {
         margin-right: 4%;
     }
+
     /*Decrease margin for screen size*/
     .image-right {
         margin-left: 4%;
     }
+
     /*Sidebar now moves to a section below the services to fit.*/
     .benefits-section {
         width: 100%;
@@ -238,12 +263,14 @@ footer h2 {
         align-content: center;
         flex-direction: column;
     }
+
     /*Set image height max heigher so it can take up more room in the section for smaller screen sizes.*/
     .services-section img {
         width: auto;
         height: auto;
         max-height: 350px;
     }
+
     /*Both image classes get uniform width and margin settings when on a mobile screen.*/
     .image-left, .image-right{
         margin-left: 0px;
