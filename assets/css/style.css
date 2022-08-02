@@ -66,7 +66,7 @@ p {
 }
 
 /*Main services content section*/
-.services {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -102,7 +102,7 @@ p {
 
 
 /*Right sidebar of benefits*/
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -112,6 +112,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
 /*Benefit spacing and color*/
 .benefits-section{
     margin-bottom: 32px;
@@ -151,13 +152,15 @@ footer h2 {
         margin-left: 17px;
     }
     /*Services no longer needs side margins since there's not sidebar*/
-    .services {
+    main {
         margin-left: 0px;
         margin-right: 0px;
+        width: 100%
     }
 
     /*Benefits no longer fits as a sidebar. Both sections span the entire width of page.*/
-    .services, .benefits{
+
+    aside {
         width: 100%;
     }
     /*Smaller section header to fit*/
@@ -166,7 +169,7 @@ footer h2 {
         font-size: 24px;
     }
     /*Text fits better with stacked column structure*/
-    .benefits {
+    aside {
         text-align: center;
         width: 95%;
         margin-left: auto;
