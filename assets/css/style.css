@@ -169,7 +169,6 @@ footer h2 {
     /*Hero image will take up less vertical space in mobile screens*/
     .hero {
         height: 400px;
-        width: 100%;
     }
 
     /*Services no longer needs side margins since there's not sidebar*/
