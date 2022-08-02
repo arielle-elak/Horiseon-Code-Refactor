@@ -4,7 +4,7 @@ Thank you for viewing Arielle's first challenge with the UCB Coding Bootcamp.
 
 Please view the live site here:
 
-[https://arielle-elak.github.io/Challenge-01-Code-Refactor/]
+https://arielle-elak.github.io/Challenge-01-Code-Refactor/
 
 Please note the following features of this build:
 
