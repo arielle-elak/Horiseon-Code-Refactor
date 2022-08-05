@@ -1,4 +1,4 @@
-# Challenge-01-Code-Refactor
+# Horiseon Code Refractor
 
 Thank you for viewing Arielle's first challenge with the UCB Coding Bootcamp!
 
