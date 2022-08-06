@@ -6,7 +6,7 @@ For this assignment, we were given a pre-built website lacking in sementic eleme
 
 Please view the live site here:
 
-https://arielle-elak.github.io/Challenge-01-Code-Refactor/
+https://arielle-elak.github.io/Horiseon-Code-Refactor/
 
 Please note the following features of this build:
 
